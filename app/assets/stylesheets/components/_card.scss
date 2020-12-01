@@ -5,6 +5,11 @@
   background-position: center;
   color: white;
   position: relative;
+  border-radius: 5px;
+  justify-content: top;
+  align-items: center;
+  font-weight: bold;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 .card-description {
   position: absolute;
@@ -17,7 +22,7 @@
 .card-link {
   position: absolute;
   top: 0;
-  bottom: 0;
+  bottom: 10px;
   right: 0;
   width: 100%;
   z-index: 2;
