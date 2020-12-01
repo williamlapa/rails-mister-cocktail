@@ -25,6 +25,11 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+# Gemfile novas
+gem 'autoprefixer-rails'
+gem 'font-awesome-sass', '~> 5.12.0'
+gem 'simple_form'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
@@ -47,7 +52,3 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'rspec-rails', '4.0.0.beta3', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
 
-# Gemfile novas
-gem 'autoprefixer-rails'
-gem 'font-awesome-sass', '~> 5.12.0'
-gem 'simple_form'
